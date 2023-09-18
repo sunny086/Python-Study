@@ -1,0 +1,76 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# 忽略Python的缓存文件和目录
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略虚拟环境
+venv/
+env/
+*.env
+
+# 忽略依赖文件
+*.egg-info/
+dist/
+*.egg
+
+# 忽略编辑器和IDE生成的文件和目录
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.bak
+*.cache
+*.log
+*.log.*
+logs/
+
+# 忽略本地配置文件
+*.config
+*.conf
+
+# 忽略日志和数据文件
+*.csv
+*.json
+
+# 忽略临时文件
+*.tmp
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 忽略自动生成的文档
+docs/_build/
