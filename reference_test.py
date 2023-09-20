@@ -96,6 +96,17 @@ def set_list_tuple_test01():
     print(my_set)
 
 
+def reference_test01():
+    info = [1, 2]
+
+    def show(info):
+        info = [1, 2, 3]
+        print(info)
+
+    show(info)  # [1, 2, 3]
+    print(info)  # [1, 2]
+
+
 if __name__ == '__main__':
     # map_test01()
     # map_test02()
@@ -103,4 +114,5 @@ if __name__ == '__main__':
     # set_test01()
     # set_test02()
     # tuple_test01()
-    set_list_tuple_test01()
+    # set_list_tuple_test01()
+    reference_test01()
