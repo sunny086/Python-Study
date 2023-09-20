@@ -89,6 +89,22 @@ def test_pass():
     print("Good bye!")
 
 
+'''
+在Python中，数据类型大致有两类：
+值类型：本身不允许被修改，有：数值类型、布尔类型、字符串类型、元组类型等
+引用类型：本身允许修改，有：列表、字典
+python的变量无类型限制，其实是因为变量的本质是指针，可以指向任意对象。指针的内存空间大小是与类型无关的，其内存空间只是保存了所指向数据的内存地址。
+以下示例其实是让a指向一个新的内存地址，并不会修改变量b的值：
+'''
+
+
+def test_value_type():
+    a = 1
+    b = a
+    a = 2
+    print(b)  # 输出的结果是1
+
+
 if __name__ == '__main__':
     # test01()
     # test02()
@@ -97,4 +113,5 @@ if __name__ == '__main__':
     # test_while()
     # test_break()
     # test_continue()
-    test_pass()
+    # test_pass()
+    test_value_type()
