@@ -105,6 +105,32 @@ def test_value_type():
     print(b)  # 输出的结果是1
 
 
+def test_list():
+    namesList = ['xiaoWang', 'xiaoZhang', 'xiaoHua']
+    print(namesList[0])
+    print(len(namesList))
+    for name in namesList:
+        print(name)
+    list = ['a', 'b', 'c']
+    print("=============================")
+    # 添加元素
+    list.append('d')  # 尾部添加
+    list.extend(['e', 'f'])  # 逐个添加
+    list.insert(6, 'g')  # 指定位置添加
+    # 删除元素
+    del list[0]  # 删除指定位置
+    list.pop()  # 删除末尾元素
+    list.remove('f')  # 删除具体元素
+    # 修改元素
+    list[0] = 'A'
+    # 查找元素,index/count 等方法与字符串的对应方法用法一致。也可以使用循环，配合 in 与 not in 查找
+    l = list.index('c', 1, 2)   # 左闭右开区间
+    # 排序
+    list.sort(reverse=True)  # 默认由小到大排序，添加False参数，则由大到小排列
+    # 逆置
+    list.reverse()
+    print("=================")
+
 if __name__ == '__main__':
     # test01()
     # test02()
@@ -114,4 +140,5 @@ if __name__ == '__main__':
     # test_break()
     # test_continue()
     # test_pass()
-    test_value_type()
+    # test_value_type()
+    test_list()
