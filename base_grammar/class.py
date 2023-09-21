@@ -56,5 +56,38 @@ def class1_test():
     print(class1.field1)
 
 
+class Class2:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return (
+            f"Class2(name='{self.name}', age={self.age})"
+        )
+
+
+def class2_test():
+    class2 = Class2("张三", 18)
+    print(class2.name)
+    print(class2.age)
+    print(class2)
+
+
+# 在Python中，f 是格式化字符串字面值（Formatted String Literal）的前缀。它是Python 3.6及更高版本引入的一种字符串表示形式，用于创建包含表达式的字符串，并在字符串中插入表达式的值。
+# 使用 f 字符串字面值可以更方便地在字符串中嵌入变量、表达式、函数调用等，并以更清晰的方式进行字符串格式化。在 f 字符串中，你可以在字符串中使用花括号 {} 来包围表达式，然后在花括号内写入要插入的表达式。
+def format_test():
+    name = "Alice"
+    age = 30
+    # 使用f字符串嵌入变量和表达式
+    message = f"My name is {name} and I am {age} years old."
+    # 打印message
+    print(message)
+
+
 if __name__ == '__main__':
     class1_test()
+    print("\n")
+    class2_test()
+    print("\n")
+    format_test()
