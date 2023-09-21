@@ -34,6 +34,7 @@ if __name__ == '__main__':
     show1()
     show2(1, 2)
     show3()  # hello
-    show4()  # world
-    print(info)  # hello
-    show5()
+    show4()  # world 输出的是局部赋值的
+    print(info)  # hello 输出的是全局的
+    show5()  # world
+    print(info)  # world 被global修饰了 全局修改
