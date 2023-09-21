@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-class AccessLog:
+class Class1:
     def __init__(self):
         self.user = None
         self.resourceType = None
@@ -41,16 +41,20 @@ class AccessLog:
         )
 
 
-if __name__ == '__main__':
+def class1_test():
     # 创建一个AccessLog对象
-    access_log = AccessLog()
-    access_log.set_user("John")
-    access_log.set_resource_type("File")
-    access_log.set_resource_id("12345")
-    access_log.set_access_type("Read")
-    access_log.set_access_time("2023-09-21 15:30:00")
-    access_log.set_duration(5)
+    class1 = Class1()
+    class1.set_user("John")
+    class1.set_resource_type("File")
+    class1.set_resource_id("12345")
+    class1.set_access_type("Read")
+    class1.set_access_time("2023-09-21 15:30:00")
+    class1.set_duration(5)
 
     # 打印对象信息
-    print(access_log)
-    print(access_log.field1)
+    print(class1)
+    print(class1.field1)
+
+
+if __name__ == '__main__':
+    class1_test()
