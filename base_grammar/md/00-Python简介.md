@@ -9,7 +9,7 @@ Python的开发始于1989年，作者是 Guido von Rossum，1.0版正式发布�
 2000年，Python3发布，该版本不完全兼容之前的Python代码，不过因为目前还有不少公司在项目和运维中使用Python 2.x版本，所以Python 3.x的很多新特性后来也被移植到Python 2.6/2.7版本中。 
 
 Python的Logo：  
-![](../images/01-00.jpeg)  
+![](../../images/01-00.jpeg)  
 
 ## 二 Python的特点
 
