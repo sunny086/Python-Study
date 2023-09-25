@@ -3,7 +3,7 @@ Python日常工作 demo测试
 
 
 
-# 虚拟环境
+## 虚拟环境
 
 ```markdown
 # 安装
@@ -22,3 +22,55 @@ rm -rf xxx
 ```
 
 虚拟环境新建结束，编译器配置一些项目的python解释器，选择新建的那个虚拟环境就可以切换了
+
+
+
+## 包管理方式
+
+```markdown
+# demo
+package1==1.0.0
+package2>=2.1.0
+```
+
+```markdown
+# 安装全部
+pip install -r requirements.txt
+# 导出依赖列表
+pip freeze > requirements.txt
+# 卸载全部
+pip uninstall -r requirements.txt -y
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
