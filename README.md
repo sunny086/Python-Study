@@ -3,6 +3,18 @@ Python日常工作 demo测试
 
 
 
+## 安装
+
+```markdown
+# 查看版本号
+python --version
+# pip镜像 清华大学 阿里云 豆瓣
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip config list
+```
+
+
+
 ## 虚拟环境
 
 ```markdown
