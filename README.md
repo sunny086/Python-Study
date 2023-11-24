@@ -23,7 +23,7 @@ pip show virtualenv
 pip install virtualenv
 # 新建
 virtualenv <venv_name>
-# 激活 命令结束会发现命令行提示符前缀发生变更 后面就是pip之类的使用了
+# 激活 命令结束会发现命令行提示符前缀发生变更 后面就是pip之类的使用了 以下两个分别是windows和linux环境的激活命令
 .\<venv_name>\Scripts\activate
 source /<venv_name>/bin/activate
 # 退出虚拟环境
