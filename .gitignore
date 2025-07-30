@@ -36,6 +36,7 @@ __pycache__/
 venv/
 env/
 *.env
+.venv
 
 # 忽略依赖文件
 *.egg-info/

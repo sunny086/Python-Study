@@ -60,6 +60,7 @@ pip list --outdated
 pip freeze > requirements.txt
 # 卸载全部
 pip uninstall -r requirements.txt -y
+pip freeze | xargs pip uninstall -y
 ```
 
 
